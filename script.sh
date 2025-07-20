@@ -10,6 +10,8 @@ sleep 1
 
 sudo su -
 
+sleep 1
+
 echo "[chaotic-aur]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
